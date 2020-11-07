@@ -1,0 +1,75 @@
+body{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image:url(img/fleurs.svg);
+}
+
+header, footer {
+  background-color: yellow;
+  min-height: 12vh;
+}
+
+footer {
+  <img src="fleurs.svg" alt="image">
+}
+
+article{
+  min-height: 70vh;
+}
+
+nav a {
+  color: black;
+}
+
+nav {
+    float: right;
+    left: -50%;
+    position: relative;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	left: 50%;
+	position: relative;
+}
+
+ul li {
+	display: block;
+	float: left;
+	padding: 30px 10px;
+	margin: 0px;
+}
+
+.content {
+  border: 0px solid #000;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.content video {
+  display: block;
+  flex-basis: 650px;
+}
+
+.flotte {
+float:left;
+}
+
+.content p {
+  flex-basis: 650px;
+  padding: 2em;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+.img_article {
+  width: 900px;
+  height: auto;
+}
